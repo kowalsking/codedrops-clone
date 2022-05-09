@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Navigation from './components/navigation'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
+  const icon = <FontAwesomeIcon icon={faMagnifyingGlass} />
   return (
-    <h1>Hello folks!</h1>
+    <div className="container">
+      <Navigation />
+    </div>
   );
 }
 
