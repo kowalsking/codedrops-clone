@@ -1,0 +1,54 @@
+.mainHeader {
+  display: flex;
+  max-width: 1350px;
+  justify-content: space-between;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.blankContainer {
+  width: 300px;
+}
+
+.navigationMenu {
+  font-size: 17px;
+  color: #000000;
+  font-weight: 500;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin: 0.5rem 0.7rem;
+
+      a {
+        text-decoration: none;
+        display: block;
+        margin: 5px auto 0;
+        transition: all 0.3s ease;
+
+        &:visited {
+          color: #000000;
+        }
+
+        &:hover {
+          color: #334BF7;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+  }
+}
+
+.searchIcon {
+  font-size: 20px;
+  margin-top: 10px;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    color: #334BF7;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+  }
+}
