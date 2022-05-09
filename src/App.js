@@ -5,7 +5,7 @@ function App() {
     <div className="container">
       <Navigation />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
