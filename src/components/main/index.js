@@ -5,12 +5,31 @@ const Main = () => {
     <div className="main">
       <div className="sidebar">
         <div className="subscribe">
-          Subscribe
+          <div className="subscribe-form">
+            <form>
+              <h3>Subscribe for the latest frontend news</h3>
+              <p>Stay up date with the latest web design and development news and relevant updates from Codrops.</p>
+              <input type="email" />
+              <button>Subscribe</button>
+            </form>
+          </div>
         </div>
         <div className="latest">
           Latest
+          Latest
+          Latest
+          Latest
+          Latest
+          Latest
+          Latest
+          Latest
         </div>
         <div className="css-reference">
+          Css reference
+          Css reference
+          Css reference
+          Css reference
+          Css reference
           Css reference
         </div>
       </div>

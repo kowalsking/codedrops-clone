@@ -5,3 +5,13 @@
   padding: 0 2rem;
   margin: 2rem auto;
 }
+
+.empty-container {
+  width: 30%;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
