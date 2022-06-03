@@ -14,7 +14,7 @@ const NavList = () => {
   return (
     <nav className="navigationMenu">
       <ul>
-      {navList}
+        {navList}
       </ul>   
     </nav>
   )
